@@ -2,7 +2,7 @@
 
 pkgname=tidal-hifi-git
 pkgrel=1
-pkgver=5.20.1.r0.g604f34b
+pkgver=5.20.1.r24.g69ad060
 pkgdesc="The web version of listen.tidal.com running in electron with hifi support thanks to widevine. If the install fails use nvm to temporarily downgrade npm"
 arch=(x86_64)
 url="https://github.com/Mastermindzh/tidal-hifi"
@@ -53,8 +53,8 @@ prepare() {
     cd "${srcdir}/${pkgname%-git}" || exit
 
     # use correct nodejs/npm versions
-    nvm install lts/gallium
-    nvm use lts/gallium
+    nvm install lts/jod
+    nvm use lts/jod
 
     # install build dependencies
     npm install
