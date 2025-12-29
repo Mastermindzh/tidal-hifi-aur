@@ -2,8 +2,8 @@
 
 pkgname=tidal-hifi-git
 pkgrel=1
-pkgver=5.20.1.r24.g69ad060
-pkgdesc="The web version of listen.tidal.com running in electron with hifi support thanks to widevine. If the install fails use nvm to temporarily downgrade npm"
+pkgver=6.0.0.r0.gfa8d7b1
+pkgdesc="The web version of tidal.com running in electron with hifi support thanks to widevine. If the install fails use nvm to temporarily downgrade npm"
 arch=(x86_64)
 url="https://github.com/Mastermindzh/tidal-hifi"
 license=("custom:MIT")
@@ -16,7 +16,7 @@ source=("git+https://github.com/Mastermindzh/tidal-hifi.git"
     "tidal-hifi.desktop"
     "tidal-hifi.xml")
 sha512sums=('SKIP'
-    'bdfa717818219e1b7b6033ae8217615aad518c119d465639e394a1415df545cecafa794c4a1fa267cb69b62e7026291a0b18bad7cc61ec80814da086413c6df7'
+    'ab8fadd3eed29ad712324d2b1c91bf5a8a7e84af5ecc9b0ad9af3ecf5ffe31e048854e7346b0538c605fdb30059be1c051632fd314f0127390f3791edba6bdac'
     "e06fce55c2d9fcaeff514b97e8b003dca4c1a0aa8c8e14c3e3b99febbc2e8af7402d2e2009147f3f57a9b6447fafd23dd69e7b4de63cf43c5d67825836ebecb5")
 
 getnvm() {

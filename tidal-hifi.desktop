@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=TIDAL Hi-Fi
 GenericName=TIDAL Hi-Fi
-Comment=The web version of listen.tidal.com running in electron with hifi support thanks to widevine.
+Comment=The web version of tidal.com running in electron with hifi support thanks to widevine.
 Exec=tidal-hifi --enable-features=UseOzonePlatform --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations %U
 Icon=/usr/share/icons/tidal-hifi/tidal-hifi.png
 StartupNotify=true
